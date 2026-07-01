@@ -3,7 +3,7 @@ resource "aws_instance" "web" {
   instance_type = "t2.medum"
 
   tags = {
-    Name = "web-server22"
+    Name = "web-server1"
     Environment = "test"
   }
 }
